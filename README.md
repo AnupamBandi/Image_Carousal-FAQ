@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+**project 1:Image Carousal 
+The first React project on our list is an image slider or carousel.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+How you will build it:**
+Our carousel should allow the user to click the backwards or forwards button to go to the previous or next image.
 
-## Available Scripts
+The images will be stored in a simple array. We will see how to use state in order to store the current image. Then we will update that state to go to the previous or next image, according to the button the user pressed.
 
-In the project directory, you can run:
+If the user has gone through all of the images, you will figure out how to start at the beginning of the array, to allow them to cycle through the images again. If you don't want to use images, you could also use text to make a testimonial carousel that cycles through reviews for a given product.
 
-### `npm start`
+Finally, if you want to take your carousel to the next level, try adding a fun transition using CSS to animate the image as it changes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React concepts you will learn:**
+-useState (storing and updating state)
+-Conditionals (ternaries)
+-Lists, keys, and .map()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**project :2. FAQ/Accordion**
+Another common type of component which can utilizes state is an accordion component, which can both reveal and hide text.
+**How you will build it:**
+You will learn how to toggle state to make sure that each accordion opens and closes after each button press. You will also learn simple conditionals such as the and (&&) operator that will only show the content of the accordion when the accordion state says it is open.
 
-### `npm test`
+Finally, we will create an entire FAQ (frequently asked questions) section by displaying multiple accordion components. To do so, we will learn how to pass each accordion's data down into the component using props.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**React concepts you will learn:**
+Toggling state with useState
+Conditionals (&&)
+Passing data to components via props
+Displaying multiple components with .map()
